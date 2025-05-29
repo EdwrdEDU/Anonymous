@@ -50,7 +50,11 @@ A simple Laravel-based application where users can submit anonymous posts and ad
    ```bash
    php artisan db:seed
 
-7. **Start the server:**
+7. **Generate the application key:**
+   ```bash
+   php artisan key:generate
+
+8. **Start the server:**
    ```bash
    php artisan serve
 
