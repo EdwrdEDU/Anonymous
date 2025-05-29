@@ -25,7 +25,7 @@ A simple Laravel-based application where users can submit anonymous posts and ad
 
 1. **Clone the project:**
    ```bash
-   git clone https://github.com/your-username/anonymous-posts.git
+   git clone https://github.com/EdwrdEDU/Anonymous.git
    cd anonymous
 
 2. **Install dependencies:**
@@ -34,13 +34,14 @@ A simple Laravel-based application where users can submit anonymous posts and ad
 
 3. **Set up your environment:**
    ```bash
-   cp .env.example .env
+   copy .env.example .env
    php artisan key:generate
 
 
 4. **Configure your .env file:**
    ```bash
-   Set database name, username, and password
+   go to .env
+   change DB_CONNECTION=sqlite
 
 5. **Run migrations:**
    ```bash
