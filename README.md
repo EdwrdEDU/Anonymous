@@ -54,20 +54,16 @@ A simple Laravel-based application where users can submit anonymous posts and ad
    ```bash
    php artisan serve
 
-📂 Basic Structure
-   routes/web.php – Defines all app routes
+## 📂 Basic Structure
 
-   app/Http/Controllers/PostController.php – Handles post logic
+- routes/web.php – Defines all app routes
+- app/Http/Controllers/PostController.php – Handles post logic
+- resources/views/ – Blade templates for user and admin views
+- app/Models/Post.php – Post model
+- database/migrations/ – Post table schema with status field
 
-   resources/views/ – Blade templates for user and admin views
+## 📝 Post Statuses
 
-   app/Models/Post.php – Post model
-
-   database/migrations/ – Post table schema with status field
-
-📝 Post Statuses
-   Pending – Newly submitted posts (awaiting admin review)
-
-   Accepted – Visible on the homepage
-
-   Declined – Visible on the Declined Posts page
+- Pending – Newly submitted posts (awaiting admin review)
+- Accepted – Visible on the homepage
+- Declined – Visible on the Declined Posts page
